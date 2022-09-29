@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.kopniaev.AddCategoryController">
+   <children>
+      <Label layoutX="43.0" layoutY="35.0" text="Name" />
+      <TextField fx:id="textFieldName" layoutX="112.0" layoutY="31.0" />
+      <Button fx:id="buttonOk" layoutX="43.0" layoutY="86.0" mnemonicParsing="false" onAction="#buttonOk" prefHeight="25.0" prefWidth="106.0" text="Ok" />
+      <Button fx:id="buttonCancel" layoutX="161.0" layoutY="86.0" mnemonicParsing="false" onAction="#buttonCancel" prefHeight="25.0" prefWidth="106.0" text="Cancel" />
+   </children>
+</AnchorPane>

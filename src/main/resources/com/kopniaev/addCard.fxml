@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.kopniaev.AddCardController">
+   <children>
+      <ComboBox fx:id="comboBoxCategories" layoutX="150.0" layoutY="26.0" onAction="#comboBoxCategories" prefWidth="150.0" />
+      <TextArea fx:id="textAreaQuestion" layoutX="150.0" layoutY="63.0" prefHeight="117.0" prefWidth="232.0" />
+      <TextArea fx:id="textAreaAnswer" layoutX="150.0" layoutY="194.0" prefHeight="117.0" prefWidth="232.0" />
+      <Label layoutX="27.0" layoutY="30.0" text="Category" />
+      <Label layoutX="27.0" layoutY="63.0" text="Question" />
+      <Label layoutX="27.0" layoutY="200.0" text="Answer" />
+      <Button fx:id="buttonOk" layoutX="150.0" layoutY="335.0" mnemonicParsing="false" onAction="#buttonOk" prefHeight="25.0" prefWidth="105.0" text="Ok" />
+      <Button fx:id="buttonCancel" layoutX="266.0" layoutY="335.0" mnemonicParsing="false" onAction="#buttonCancel" prefHeight="25.0" prefWidth="111.0" text="Cancel" />
+   </children>
+</AnchorPane>

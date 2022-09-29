@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="469.0" prefWidth="480.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.kopniaev.MainController">
+   <children>
+      <ComboBox fx:id="comboBoxCategory" layoutX="20.0" layoutY="19.0" onAction="#comboBoxCategorySelected" prefHeight="25.0" prefWidth="226.0" />
+      <ListView fx:id="listViewCard" layoutX="18.0" layoutY="78.0" onMouseClicked="#listViewCardOnMouseClicked" prefHeight="375.0" prefWidth="226.0" />
+      <TextArea fx:id="textAreaQuestion" layoutX="263.0" layoutY="155.0" prefHeight="103.0" prefWidth="200.0" />
+      <TextArea fx:id="textAreaAnswer" layoutX="263.0" layoutY="290.0" prefHeight="91.0" prefWidth="200.0" />
+      <Label layoutX="263.0" layoutY="127.0" text="Question" />
+      <Label layoutX="263.0" layoutY="265.0" text="Answer" />
+      <Button fx:id="buttonAddCard" layoutX="261.0" layoutY="76.0" mnemonicParsing="false" onAction="#buttonAddCard" prefHeight="35.0" prefWidth="90.0" text="+">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font></Button>
+      <Button fx:id="buttonDeleteCard" layoutX="361.0" layoutY="76.0" mnemonicParsing="false" onAction="#buttonDeleteCard" prefHeight="35.0" prefWidth="90.0" text="-">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font></Button>
+      <Button fx:id="buttonAddCategory" layoutX="260.0" layoutY="14.0" mnemonicParsing="false" onAction="#buttonAddCategory" prefHeight="35.0" prefWidth="90.0" text="+">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Button>
+      <Button fx:id="buttonDeleteCategory" layoutX="361.0" layoutY="14.0" mnemonicParsing="false" onAction="#buttonDeleteCategory" prefHeight="35.0" prefWidth="90.0" text="-">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font></Button>
+      <Button fx:id="buttonUpdateCard" layoutX="261.0" layoutY="397.0" mnemonicParsing="false" onAction="#buttonUpdateCard" prefHeight="25.0" prefWidth="200.0" text="Update" />
+      <Line endX="344.0" layoutX="118.0" layoutY="64.0" startX="-100.0" />
+      <Button fx:id="buttonExit" layoutX="261.0" layoutY="430.0" mnemonicParsing="false" onAction="#buttonExit" prefHeight="25.0" prefWidth="200.0" text="Exit">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
